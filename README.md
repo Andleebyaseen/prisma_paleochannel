@@ -1,5 +1,3 @@
-# prisma_paleochannel
-
 This repository provides a basic pipeline for segmenting raster data using a standard UNet model. The workflow includes reading raster and mask files, creating tiles from them, training a UNet model, and performing inference with proper geospatial referencing.
 
 The file **computing_tiles.ipynb** is responsible for reading the raster data and the corresponding mask files. It then creates image and mask tiles from these inputs, which are used for training and inference.
